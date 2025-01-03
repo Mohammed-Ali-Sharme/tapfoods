@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, 
+                        initial-scale=1.0">
+    <title>Signup</title>
+
+    <link rel="stylesheet"href="signin.css">
+    <script src = "validations.js"></script>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="btn">
+            <h3 class="signup"><strong>Create an account</strong></h3>
+        </div>
+        <div class="form-section">
+            <!-- signup form -->
+            <form action="Signup" method="post" onsubmit="return validate()">
+                 <div class="signup-box">
+                	<input type="text" name="userName" id= "un"class="name ele" placeholder="Enter your username">
+                	<span id="usn" style="color: red;"></span>
+                    <input type="text" name="email" id = "ema" class="email ele" placeholder="Enter your email">
+                    <span id="em" style="color: red;"></span>
+                    <input type="text" name="password" id = "pass"class="password ele" placeholder="password">
+                    <span id="ps" style="color: red;"></span>
+                    <input type="text" name="password" id = "cpass" class="Address ele" placeholder="confirm password">
+                	<span id="cps" style="color: red;"></span>
+                	<input type = "submit" class="clkbtn" value ="signup">
+            	</div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

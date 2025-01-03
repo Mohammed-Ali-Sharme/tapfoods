@@ -45,6 +45,3 @@ The project follows the **MVC (Model-View-Controller)** design pattern:
 2. Browse food items and add to the cart.
 3. Place an order.
 4. Admins can manage the menu and orders.
-
-## License
-Licensed under the MIT License.
